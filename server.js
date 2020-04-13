@@ -9,7 +9,7 @@ server.use(express.json());
 server.use("/api/posts", PostRouter);
 
 server.get("/", (req, res) => {
-  res.send("<h3>DB Helpers with knex</h3>");
+  res.send("DB Helpers with knex");
 });
 
 module.exports = server;
